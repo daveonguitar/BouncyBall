@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/balls_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.daveonguitar.android.bouncyball.BouncyBallView
+        android:id="@+id/ball_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000" />
+
+</FrameLayout>
